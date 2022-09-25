@@ -20,4 +20,4 @@ BatterySpector is a Windows portable software to inspect battery health.
 
 ## How To Launch
 
-Extract the folder and execute the "batteryspector" shortcut.
+Extract the folder and execute the "batteryspector.exe" file inside of it (if it doesn't boot up try as an admin).
