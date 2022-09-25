@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BatterySpector</title>
+    <script src="./front.js" defer></script>
+    <link rel="stylesheet" href="./build-CSS/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="warning">
+        <h1>Your System Has No Battery...</h1>
+        <h2>:(</h2>
+    </div>
+    <div id="content">
+        <div id="header">
+            <img alt="battery" id="battery">
+            <span id="percent"></span>
+        </div>
+        <div id="infos">
+            <div class="infoRow">
+                <span>
+                    Design Capacity :
+                </span>
+                <span id="desCap" class="key"></span>
+            </div>
+            <div class="infoRow" > 
+                <span>
+                    Max Capacity :
+                </span>
+                <span id="maxCap" class="key"></span>
+            </div>
+            <div class="infoRow">
+                <span>
+                    Current Capacity :
+                </span>
+                <span id="curCap" class="key"></span>
+            </div>
+            <div class="infoRow">
+                <span>
+                    Voltage :
+                </span>
+                <span id="voltage" class="key"></span>
+            </div>
+            <div class="infoRow">
+                <span>
+                    Rechargeable :
+                </span>
+                <span id="rech" class="key"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
